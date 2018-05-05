@@ -20,6 +20,12 @@ module.exports = {
   /*
   ** Build configuration
   */
+  modules: [
+    '@nuxtjs/axios'
+  ],
+  css: [
+    '@/assets/bootstrap.min.css'
+  ],
   build: {
     /*
     ** Run ESLint on save
